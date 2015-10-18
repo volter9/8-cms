@@ -1,11 +1,11 @@
 <p>
-    Добро пожаловать! 
-    Мой сайт работает на самой крутой и быстрой CMS в мире, 
-    которая написана в 8 строк кода.
+    Welcome to my humble lair! 
+    This website is powered by the most lightweight, simple and
+    fast CMS in the world that written in 8 lines of PHP code.
 </p>
 
 <?php 
 
 return [
-    'title' => 'Добро пожаловать'
+    'title' => 'Welcome!'
 ];

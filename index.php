@@ -10,7 +10,7 @@
 
 $route = trim(!empty($_GET['route']) ? $_GET['route'] : 'index', '/');
 
-$file = "content/$route";
+$file = str_replace('..', '', "content/$route");
 $file = file_exists("$file.php") ? "$file.php" : 'content/404.php';
 
 ob_start();

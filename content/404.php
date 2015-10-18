@@ -1,12 +1,11 @@
 <?php header('HTTP/1.1 404 Not Found') ?>
 <p>
-    Вы наверное не на ту кнопку нажали. 
-    По этому попали сюда. Или же потому что я удалил страницу, но не удалил
-    внешнии ссылки.
+    Sorry, this page wasn't found. 
+    This page was deleted or it was smashed by Hulk, sorry.
 </p>
 
 <?php 
 
 return [
-    'title' => '404 - Страница не была найдена'
+    'title' => '404 - Page Not Found'
 ];
