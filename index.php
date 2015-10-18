@@ -13,8 +13,9 @@ $route = trim(!empty($_GET['route']) ? $_GET['route'] : 'index', '/');
 $file = str_replace('..', '', "content/$route");
 $file = file_exists("$file.php") ? "$file.php" : 'content/404.php';
 
-ob_start();
-$data = require $file;
+file_exists('theme/functions.php') and (require 'theme/functions.php');
+
+ob_start() and $data = require $file;
 $content = ob_get_clean();
 
 extract($data ? $data : array());
