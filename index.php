@@ -18,6 +18,6 @@ file_exists('theme/functions.php') and require 'theme/functions.php';
 ob_start() and $data = require $file;
 $content = ob_get_clean();
 
-extract($data ? $data : array());
+extract($data ?: array());
 
 include 'theme/layout.php';
