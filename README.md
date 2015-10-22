@@ -8,7 +8,7 @@
 
 ## How to install
 
-To install 8 CMS, you have to download conent of this git repository and upload 
+To install 8 CMS, you have to download content of this git repository and upload 
 those files on the hosting or put on local web server.
 
 That's it. Just grab files and upload them. Simple!
