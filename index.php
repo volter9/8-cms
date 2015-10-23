@@ -1,5 +1,13 @@
 <?php  
 
+/* Enable mods here... */
+define('BASEPATH', __DIR__);
+
+// Uncomment line below to enable all 8-cms mods
+// array_map(function ($file) { require $file; }, glob('mods/*/mod.php'));
+require 'mods/nginx-security/mod.php';
+require 'mods/static-website/mod.php';
+
 /**
  * 8 CMS - the most lightweight, simple and fast CMS in the world
  * 
@@ -15,8 +23,7 @@ $file = file_exists("$file.php") ? "$file.php" : 'content/404.php';
 
 file_exists('theme/functions.php') and require 'theme/functions.php';
 
-ob_start() and $data = require $file;
-$content = ob_get_clean();
+ob_start() and $data = (require $file) and $content = ob_get_clean();
 
 extract($data ?: array());
 
