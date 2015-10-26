@@ -1,12 +1,6 @@
 <?php  
 
 /* Enable mods here... */
-define('BASEPATH', __DIR__);
-
-// Uncomment line below to enable all 8-cms mods
-// array_map(function ($file) { require $file; }, glob('mods/*/mod.php'));
-require 'mods/nginx-security/mod.php';
-require 'mods/static-website/mod.php';
 
 /**
  * 8 CMS - the most lightweight, simple and fast CMS in the world
