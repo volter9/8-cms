@@ -2,7 +2,7 @@
 
 ![wtfpl 2.0](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-2.png)
 
-8 CMS is the most simple, lightweight and fast file-flat CMS (content management system) in the world written in PHP.
+8 CMS is the most simple, lightweight and fast file-flat CMS (Content Management System) in the world written in PHP.
 
 8 CMS called «8 CMS», because that's how many lines of code in the core.
 
