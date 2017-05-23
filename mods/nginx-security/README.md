@@ -9,7 +9,7 @@ file in index.php:
 
 ```php 
 define('BASEPATH', __DIR__);
-require 'mods/nginx-secure/index.php';
+require 'mods/nginx-security/index.php';
 ```
  
 Or just copy/paste or type this code into index.php after the comment "enable mods 
